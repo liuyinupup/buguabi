@@ -7,7 +7,7 @@ VAR mood=0
 VAR friend="张三"
 VAR friend_wife="翠花"
 
-->a01
+->a00
 
 
 
