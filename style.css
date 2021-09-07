@@ -281,8 +281,11 @@ body.dark {
 }
 .tip{
     color: gray;
+    font-size: small;
+    font-weight: lighter;
 }
-.tip{
+.success{
     color:green;
     font-size: large;
+    font-weight: bold;
 }
