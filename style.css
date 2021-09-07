@@ -279,3 +279,10 @@ body.dark {
 .ink_blod{
     font-weight: bold;
 }
+.tip{
+    color: gray;
+}
+.tip{
+    color:green;
+    font-size: large;
+}
