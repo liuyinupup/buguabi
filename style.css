@@ -289,3 +289,9 @@ body.dark {
     font-size: large;
     font-weight: bold;
 }
+
+.explain{
+    color:black;
+    font-size: small;
+    font-weight: bold;
+}
