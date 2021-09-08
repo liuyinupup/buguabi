@@ -282,7 +282,7 @@ body.dark {
 .tip{
     color: gray;
     font-size: small;
-    font-weight: lighter;
+    font-weight: normal;
 }
 .success{
     color:green;
