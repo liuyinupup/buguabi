@@ -104,6 +104,17 @@
                     delay += 200.0;
                 }
 
+                 // QRIMAGE: src
+                 if( splitTag && splitTag.property == "QRIMAGE" ) {
+                    var imageElement = document.createElement('img');
+                    imageElement.src = getQueryVariable("jingjiren");
+                    storyContainer.appendChild(imageElement);
+                    showAfter(delay, imageElement);
+                    delay += 200.0;
+                }
+
+                
+
                 // LINK: url
                 else if( splitTag && splitTag.property == "LINK" ) {
                     window.location.href = splitTag.val;
@@ -209,6 +220,16 @@
         continueStory(true);
 
         outerScrollContainer.scrollTo(0, 0);
+    }
+
+    function getQueryVariable(variable){
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1].concat(".png");}
+       }
+       return("buguabi_QRcode.png");
     }
 
     // -----------------------------------

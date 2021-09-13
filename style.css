@@ -281,9 +281,9 @@ body.dark {
     font-weight: bold;
 }
 .tip{
-    color: gray;
+    color: #b97c2c;
     font-size: small;
-    font-weight: normal;
+    font-weight: bold;
 }
 .success{
     color:green;
@@ -294,7 +294,7 @@ body.dark {
 .explain{
     color:black;
     font-size: small;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .texthidden{
