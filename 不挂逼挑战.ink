@@ -1,4 +1,4 @@
-#author:刘银@我打
+#author:周薪薪洋哥
 INCLUDE 第一章：初到深圳
 INCLUDE 第二章：入职富土康
 INCLUDE 周薪薪广告
